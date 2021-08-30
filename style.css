@@ -1,0 +1,107 @@
+.heading
+{
+color: #ffffff;
+font-size: 30px;
+background: linear-gradient(#ff1a1a 10%, #33ccff 25%, #cc00cc 50%, #66ff66 100%);
+height: 150px;
+margin-top: 0;
+padding-top: 10px;
+}
+.heading1
+{
+    padding-top: 40px;
+    color: #ccffcc;
+    width: 100%;
+    font-size: 25px;
+}
+.disk_volume_img
+  {
+  	width: 200px; 
+  	border-radius: 100px;
+  }
+  .disk_speed_img
+  {
+  	width: 200px; 
+  	border-radius: 100px;
+  }
+  .disk_volume
+  {
+  	float: right;	
+  }
+
+  .disk_speed
+  {
+  	float: left;
+  }
+  .play_button
+  {
+    width: 120px;
+    font-size: 15px;
+  }
+  canvas
+  {
+    border: 5px solid transparent;
+    margin-top: 200px;
+    animation-name: hi;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes hi {
+  0% {
+    background: red;
+  }
+  25% {
+    background: blue;
+  }
+  75% {
+    background: purple;
+  }
+  100% {
+    background: yellowgreen;
+  }
+}
+.copy_right_footer
+{
+    color: linear-gradient(#ff1a1a 10%, #33ccff 25%, #cc00cc 50%, #66ff66 100%);
+    position: fixed;
+    bottom: 0;
+    background: linear-gradient(#ff1a1a 10%, #33ccff 25%, #cc00cc 50%, #66ff66 100%);
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    line-height: 3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  #speed
+  {
+    background: linear-gradient(#ff1a1a 10%, rgb(201, 246, 96) 25%, #2c89e6 50%, #66ffcc 100%);
+    width: 100px;
+    font-size: 25px;
+    height: 40px;
+  }
+  #volume
+  {
+    background: linear-gradient(#ff1a1a 10%, rgb(201, 246, 96) 25%, #2c89e6 50%, #66ffcc 100%);
+  width: 100px;
+  font-size: 25px;
+  height: 40px;
+  }
+
+  
